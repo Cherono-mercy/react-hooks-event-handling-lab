@@ -2,8 +2,14 @@
 
 function Keypad (){
     return (
-        <div></div>
+        <div>
+        <input type="password" placeholder="Enter password" 
+        onChange={() => {console.log("Entering password...")}}></input>
+        </div>
     )
 }
 
-export default Keypad;
+export default Keypad; 
+
+
+
